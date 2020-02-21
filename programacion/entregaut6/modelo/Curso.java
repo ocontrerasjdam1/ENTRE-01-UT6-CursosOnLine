@@ -38,8 +38,8 @@ public class Curso
      * Si nombre = " sql essential training " devuelve "Sql Essential Training"
      */
     private String capitalizarNombre(String nombre) {
-
-         return "";
+        return "";
+         
         
 
     }
