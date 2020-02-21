@@ -1,3 +1,6 @@
+package  programacion.entregaut6.interfaz;  
+
+
 /**
  * Interfaz de texto
  *  
@@ -46,9 +49,7 @@ public class IUConsola
                 case BORRAR_CURSOS:
                 borrarCursos();
                 break;
-                case CURSO_MAS_ANTIGUO:
-                cursoMasAntiguo();
-                break;
+                
 
             }
             pausa();
@@ -166,14 +167,14 @@ public class IUConsola
         n > Nivel.AVANZADO.ordinal();
     }
 
-    /**
-     * muestra el curso más antiguo en la plataforma
-     */
-    private void cursoMasAntiguo() {
+    // /**
+     // * muestra el curso más antiguo en la plataforma
+     // */
+    // private void cursoMasAntiguo() {
 
-        System.out.print("El curso más antiguo es ");
-        System.out.println(plataforma.cursoMasAntiguo());
-    }
+        // System.out.print("El curso más antiguo es ");
+        // System.out.println(plataforma.cursoMasAntiguo());
+    // }
 
     /**
      * Borrar la pantalla
